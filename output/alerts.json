@@ -1,0 +1,22 @@
+[
+    {
+        "type": "failed_login_bruteforce",
+        "ip": "192.168.1.15",
+        "count": 3,
+        "message": "192.168.1.15 has 3 failed login attempts"
+    },
+    {
+        "type": "suspicious_path_access",
+        "ip": "10.0.0.5",
+        "path": "/admin",
+        "status": 403,
+        "message": "Suspicious path accessed: /admin from 10.0.0.5"
+    },
+    {
+        "type": "suspicious_path_access",
+        "ip": "172.16.0.8",
+        "path": "/.env",
+        "status": 404,
+        "message": "Suspicious path accessed: /.env from 172.16.0.8"
+    }
+]
