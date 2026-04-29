@@ -1,0 +1,5 @@
+{
+  "failed_login_threshold": 3,
+  "suspicious_paths": ["/admin", "/.env", "/wp-login.php", "/config.php"],
+  "watch_status_codes": [401, 403, 404]
+}
